@@ -168,14 +168,7 @@ function App() {
               <Route path="/cart" element={<CartScreen />} />
               <Route path="/search" element={<SearchScreen />} />
               <Route path="/signin" element={<SigninScreen />} />
-              <Route
-                path="/signup"
-                element={
-                  <ProtectedRoute>
-                    <SignupScreen />
-                  </ProtectedRoute>
-                }
-              />
+              <Route path="/signup" element={<SignupScreen />} />
               <Route path="/profile" element={<ProfileScreen />} />
               <Route path="/placeorder" element={<PlaceOrderScreen />} />
               <Route
